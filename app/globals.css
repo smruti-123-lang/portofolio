@@ -2,10 +2,10 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  /* --foreground: #171717; */
 }
 
-@theme inline {
+:root {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -14,13 +14,250 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    /* --background: #0a0a0a; */
     --foreground: #ededed;
   }
 }
 
 body {
   background: var(--background);
+  /* background-color: black; */
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.project {
+  background-color: rgb(177, 43, 225);
+  border-radius: 10px;
+}
+
+.photo {
+  background-color: rgb(6, 12, 28);
+  border-radius: 23px;
+  box-shadow: rgba(243, 239, 239, 0.56) 0px 22px 70px 4px;
+  cursor: pointer;
+}
+
+.photo:hover {
+  transform: scale(0.95);
+
+}
+
+.nav {
+  background-color: rgb(187, 78, 212);
+  box-shadow: rgb(224, 213, 213) 0px 22px 70px 4px;
+}
+
+.me {
+  background-color: rgb(196, 92, 207);
+  border-radius: 193px;
+  box-shadow: rgba(243, 239, 239, 0.56) 0px 22px 70px 4px;
+  border: 2px solid white;
+
+}
+
+.about {
+  color: wheat;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.detail {
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+}
+
+.first {
+  background-color: black;
+}
+
+.abt {
+  margin: 10px;
+  padding: 7px;
+  border-radius: 9px;
+  width: 30%;
+  text-align: center;
+  font-size: 23px;
+  color: rgb(235, 225, 225);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(194, 77, 205);
+}
+
+.smruti {
+  font-size: 15px;
+  word-spacing: 3px;
+  font-family: serif;
+  background-color: rgb(191, 108, 221);
+  padding: 16px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+.second {
+  background-color: black;
+  color: white;
+  border-top: 1px solid white;
+  min-height: 500px;
+}
+
+.head {
+  font-size: 45px;
+  padding: 10px;
+  margin-top: 35px;
+  margin-right: 35%;
+  margin-left: 35%;
+  border-radius: 20px;
+  box-shadow: rgba(243, 239, 239, 0.56) 0px 22px 70px 4px;
+}
+
+.boxes {
+  margin: 30px;
+  padding: 30px;
+  display: grid;
+  column-gap: 93px;
+  row-gap: 19px;
+  justify-content: center;
+  grid-template-columns: 20% 20% 20% 20%;
+  cursor: pointer;
+
+}
+
+.sbox {
+  /* border: 2px solid whitesmoke; */
+  box-shadow: rgba(243, 239, 239, 0.56) 0px 22px 70px 4px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.boxes :hover {
+  transform: scale(1.1);
+}
+
+.third {
+  background-color: black;
+  position: relative;
+  top: -39px;
+  min-height: 500px;
+  border-top: 1px solid white;
+}
+
+.mygucci {
+  font-size: 45px;
+  color: whitesmoke;
+  padding: 10px;
+  margin-top: 35px;
+  margin-right: 35%;
+  margin-left: 35%;
+  border-radius: 20px;
+  box-shadow: rgba(243, 239, 239, 0.56) 0px 22px 70px 4px;
+}
+
+.link {
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 30%;
+}
+
+.link:hover {
+  color: black;
+  background-color: rgb(166, 192, 218);
+  transition: all 0.3s ease-in-out;
+}
+
+.final {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 9px;
+  width: fit-content;
+  background-color: rgb(206, 145, 228);
+}
+
+.pre {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 9px;
+  width: fit-content;
+  background-color: rgb(206, 145, 228);
+}
+
+.resume {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 9px;
+  width: fit-content;
+  background-color: rgb(206, 145, 228);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(55, 5, 67);
+}
+
+.certi {
+  font-size: 45px;
+  color: whitesmoke;
+  padding: 10px;
+  margin-right: 35%;
+  margin-left: 35%;
+  text-transform: uppercase;
+  border-radius: 20px;
+  box-shadow: rgba(243, 239, 239, 0.56) 0px 22px 70px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(6, 12, 28);
+  }
+  
+.project-head {
+  font-size: 45px;
+  font-weight: bolder;
+  color: white;
+  padding: 10px;
+  margin-top: 35px;
+  margin-right: 35%;
+  margin-left: 35%;
+  border-radius: 20px;
+  box-shadow: rgba(243, 239, 239, 0.56) 0px 22px 70px 4px;
+}
+.gucci{
+  border: white 1px solid;
+  margin: 13px;
+  border-radius: 23px;
+  box-shadow: rgba(243, 239, 239, 0.56) 0px 22px 70px 4px;
+
+}
+.daykeeper{
+  border: white 1px solid;
+  margin: 13px;
+  border-radius: 23px;
+  box-shadow: rgba(243, 239, 239, 0.56) 0px 22px 70px 4px;
+
+}
+.card{
+  border: white 1px solid;
+  margin: 13px;
+  border-radius: 23px;
+  box-shadow: rgba(243, 239, 239, 0.56) 0px 22px 70px 4px;
+
+}
+.certification{
+ color:black;
 }

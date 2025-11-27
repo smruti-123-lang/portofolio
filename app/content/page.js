@@ -14,7 +14,7 @@ import Contact from '../components/Contact'
 const page = () => {
   return (
     <div className='relative'>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className='flex justify-between first'>
         <Photo />
         <Project />

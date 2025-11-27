@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <div className="flex border-red-900 justify-center m-auto">
-        <LoginPage />
+        {/* <LoginPage /> */}
       </div></>
   );
 }

@@ -32,7 +32,7 @@ const Gucci = () => {
       {/* DayKeeper */}
       <div className="flex daykeeper justify-center items-center mb-20">
         <div>
-          <video src="Video/DayKEEPER.mp4" controls className='h-[300px] bg-blue-300 p-3 w-[500px] m-3 rounded-3xl'></video>
+          <video src="Video/videeeo.mp4" controls className='h-[300px] bg-blue-300 p-3 w-[500px] m-3 rounded-3xl'></video>
         </div>
         <div className="about text-lg p-5 m-3 w-[500px]">
           <h3 className="text-2xl font-bold mb-3">DayKEEPER</h3>

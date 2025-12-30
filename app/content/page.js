@@ -11,7 +11,7 @@ import Certi from '../components/Certi'
 import Contact from '../components/Contact'
 
 
-const page = () => {
+const Page = () => {
   return (
     <div className='relative'>
       <Navbar />
@@ -38,4 +38,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -9,7 +9,7 @@ import Gucci from '../components/Gucci'
 import Certification from '../components/Certification'
 import Certi from '../components/Certi'
 import Contact from '../components/Contact'
-
+import learning from '../components/learning'
 
 const Page = () => {
   return (
